@@ -16,6 +16,12 @@
             "homepage": "https://www.dynamicagency.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/DirectLease/silverstripe-linkfield.git"
+        }
+    ],
     "require": {
         "dnadesign/silverstripe-elemental": "^5",
         "gorriecoe/silverstripe-linkfield": "dev-feature/hasonefield-update",
