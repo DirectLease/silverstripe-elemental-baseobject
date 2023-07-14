@@ -24,7 +24,7 @@
     ],
     "require": {
         "dnadesign/silverstripe-elemental": "^5",
-        "gorriecoe/silverstripe-linkfield": "dev-feature/hasonefield-update",
+        "gorriecoe/silverstripe-linkfield": "dev-feature/update-hasonefield",
         "silvershop/silverstripe-hasonefield": "^4",
         "silverstripe/framework": "^5",
         "unclecheese/display-logic": "^3"
@@ -55,6 +55,10 @@
     "extra": {
         "branch-alias": {
             "dev-master": "4.x-dev"
-        }
+        },
+        "project-files-installed": [
+            "behat.yml",
+            "phpunit.xml.dist"
+        ]
     }
 }
